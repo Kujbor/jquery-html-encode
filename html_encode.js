@@ -8,9 +8,7 @@
     "use strict";
 
     $.htmlEncode = function(data) {
-
         return $('<div />').text(data).html().replace(/"/g, '&quot;');
-
     };
 
     $.htmlDecode = function(data) {
