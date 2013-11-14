@@ -17,4 +17,4 @@
         return $('<div />').html(data.replace(/&quot;/g, '"')).text();
     };
 
-})($);
+})(jQuery);
