@@ -14,5 +14,4 @@ define("jquery.encode", ["jquery"], function($) {
     $.htmlDecode = function(data) {
         return $("<div />").html(data.replace(/&quot;/g, '"')).text();
     };
-
 });
